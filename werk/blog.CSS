@@ -34,3 +34,32 @@ li a:hover:not(.active) {
 .active {
   background-color: #7869fd;
 }
+
+.blog2 {
+  background-color: rgb(244, 179, 250);
+  padding: 1%;
+  width: 25%;
+  margin-top: 2%;
+  
+  
+    
+    
+
+
+ 
+}
+.blog1 {
+  
+  background-color: rgb(244, 179, 250);
+  padding: 1%;
+  width: 25%;
+  
+}
+.blog3 {
+  background-color: rgb(244, 179, 250);
+  padding: 1%;
+  width: 25%;
+  margin-top: 2%;
+  
+
+}
