@@ -86,6 +86,7 @@ li a:hover:not(.active) {
   border-radius: 10px;
   cursor: pointer;
   transition: 1s;
+  background-color: rgb(107, 107, 246);
 
 }
 
@@ -108,9 +109,9 @@ li a:hover:not(.active) {
 }
 
 #radio3:checked ~ .first {
-  margin-left: -15%;
+  margin-left: -13.5%;
 }
 
 #radio4:checked ~ .first {
-  margin-left: -20;
+  margin-left: -15%;
 }
