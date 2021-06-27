@@ -36,7 +36,7 @@ li a:hover:not(.active) {
 }
 
 .video1 {
-  width: 28.2%;
+  
   padding: 1%;
   border-style: solid;
   border-color: black;
@@ -44,10 +44,10 @@ li a:hover:not(.active) {
 }
 
 .video2 {
-  float: right;
-  width: 32.2%;
+  
+  
   padding: 1%;
-  margin-top: -50.3%;
+  
     border-style: solid;
     height: 893px;
   
@@ -55,11 +55,11 @@ li a:hover:not(.active) {
 }
 
 .video3 {
-  width: 32.2%;
+  
   padding: 1%;
   
-  margin-left: 30.8%;
-  margin-top: -50.3%;
+  
+  
   border-style: solid;
   height: 893px;
 
@@ -70,6 +70,7 @@ li a:hover:not(.active) {
   place-items: center;
   justify-content: center;
   display: flex;
+   
 }
 
 .par1{
@@ -81,4 +82,18 @@ li a:hover:not(.active) {
 
 .par3 {
   font-size: 140%;
+}
+
+@media screen and (min-width: 600px) {
+  #videogrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 15px;
+    grid-gap: 20px;
+  }
+  body{
+    margin-top: 70px;
+    background-color: #FBF8DE;
+  }
+  
 }
