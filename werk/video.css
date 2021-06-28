@@ -2,7 +2,7 @@ body {margin:0;}
 
 body {font-style: italic;}
 
-ul {
+.navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -13,13 +13,13 @@ ul {
   width: 100%;
 }
 
-li {
+.knoppen {
   float: right;
   font-size: 120%;
   font-style: italic;
 }
 
-li a {
+.knoppen a {
   display: block;
   color: white;
   text-align: center;
@@ -84,6 +84,8 @@ li a:hover:not(.active) {
   font-size: 140%;
 }
 
+
+
 @media screen and (min-width: 600px) {
   #videogrid{
     display: grid;
@@ -94,6 +96,72 @@ li a:hover:not(.active) {
   body{
     margin-top: 70px;
     background-color: #FBF8DE;
+  }
+  .footer2{
+    background-color: rgb(43, 42, 42);
+    height: 100px;
+    
+    
+  }
+  .footer3{
+    font-size: 3rem;
+    font-weight: 450;
+    text-transform: capitalize;
+    line-height: 3rem;
+    margin-top: 150px;
+    color: white;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .socials{
+    letter-spacing: 100px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    font-size: 90px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+  }
+  .footer-content{
+    width: 100%;
+    background-color: rgb(53, 52, 52);
+    height: 300px;
+    margin-bottom: -30px;
+    
+  }
+
+  .par33{
+    font-size: 40px;
+    color: white;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .par11{
+    font-size: 25px;
+    color: white;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    
+    
+    
+
   }
   
 }

@@ -146,7 +146,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   
 }
 
-.footer1{
+/*.footer1{
   background-color: #3f3f3f;
   height: 305px;
   
@@ -187,6 +187,37 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin: 1rem 0 3rem 0;
   
 
+}*/
+.footer2{
+  background-color: rgb(43, 42, 42);
+  height: 100px;
+}
+.footer3{
+  font-size: 3rem;
+  font-weight: 450;
+  text-transform: capitalize;
+  line-height: 3rem;
+  margin-top: 20px;
+  color: white;
+}
+
+.socials{
+  letter-spacing: 100px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  font-size: 90px;
+  margin-top: 140px;
+  
+  
+
+}
+.footer-content{
+  width: 100%;
+  background-color: rgb(53, 52, 52);
+  height: 300px;
 }
 
 @media screen and (min-width: 600px) {
@@ -290,48 +321,83 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 
   }
-  .footer1{
-    background-color: #3f3f3f;
-    height: 305px;
-    
-    width: 100%;
-    
-    
-    
-    margin-top: 30%;
-    position: relative;
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 1px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+  
     
   }
   .footer2{
     background-color: rgb(43, 42, 42);
     height: 100px;
+    
+    
   }
   .footer3{
     font-size: 3rem;
     font-weight: 450;
     text-transform: capitalize;
     line-height: 3rem;
-    margin-top: 80px;
+    margin-top: 150px;
     color: white;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
   }
   
   .socials{
-    letter-spacing: 20px;
+    letter-spacing: 100px;
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 1rem 0 3rem 0;
+    font-size: 90px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
     
 
   }
+  .footer-content{
+    width: 100%;
+    background-color: rgb(53, 52, 52);
+    height: 300px;
+    margin-bottom: -30px;
+    
+  }
+
+  .par3{
+    font-size: 40px;
+    color: white;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .par1{
+    font-size: 25px;
+    color: white;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    
+    
+    
+
+  }
+  .titel3{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    align-items: center;
+    place-content: center;
+  }
+  
   
   
 }
